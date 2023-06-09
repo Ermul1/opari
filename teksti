@@ -1,0 +1,289 @@
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ere Korkiakoski
+
+NOSTO-OVEN OHJAUSKESKUKSEN KEHITTÄMINEN
+
+ Ohjauskeskuksen paneeli-PC:n korvaaminen älylaitteella.
+
+
+
+Opinnäytetyö
+CENTRIA-AMMATTIKORKEAKOULU
+Sähkö- ja automatiikan koulutus 
+Joulukuu 2022
+
+
+
+ 
+TIIVISTELMÄ OPINNÄYTETYÖSTÄ
+
+Centria-
+ammattikorkeakoulu	Aika
+1.11.2022	Tekijä/tekijät
+Ere Korkiakoski	
+Koulutus
+Sähkö- ja automatiikan koulutusohjelma	☒  AMK
+☐  YAMK	
+Työn nimi
+OVIENOHJAUSKESKUKSEN KEHITYSTYÖ	
+Työn ohjaaja
+Tero Kaarlela	Sivumäärä
+	
+Työelämäohjaaja
+Mikko Sikala	
+Opinnäytetyössäni toteutin kehitystyön Champion Door OY:lle. Kehityksen kohteena oli nosto-ovien ohjauskeskusten oviin integroitujen kosketusnäyttö paneeli-PC:iden korvaaminen halvemmal-la, asiakasta ja Champion Door OY:tä paremmin palvelevalla ratkaisulla.
+
+	
+	
+Asiasanat
+
+Asiasanojen tulee olla opinnäytetyön keskeistä sisältöä kuvaavia, ja ne merkitään aakkosjärjestyk-seen, pilkulla ja välilyönnillä toisistaan erotettuina.
+	
+ 
+ABSTRACT
+
+Centria University 
+of Applied Sciences
+	Date
+xxxx 2020	Author
+First name Last name
+Degree programme
+Xxxxxx Xxxxxx
+Name of thesis
+MAIN HEADING. Sub-heading if used
+Centria supervisor
+First name Last name	Pages
+7 + 2
+Instructor representing commissioning institution or company
+First name Last name
+
+
+
+
+Key words
+Key words are words describing the main contents of the thesis and they are listed in alphabetical order, separated by comma signs and spaces.
+
+ 
+KÄSITTEIDEN MÄÄRITTELY
+
+
+Älylaite
+Googlen kehittämä ja 2007 julkaisema Android on kehittynyt suosituimmaksi mobiilialustaksi ja se on levinnyt taskuista olohuoneeseen. Androidia käyttävät nykyään puhelinten lisäksi tabletit, televi-siot, läppärit ja monet muut
+laitteet. Android on avoimen lähdekoodin ohjelmisto, joten kuka tahansa
+voi muokata sitä haluamallaan tavalla. 
+
+Paneeli-PC
+Erityisesti verkkoselaimeksi konfiguroitu Paneeli-PC yhdistää logiikat omiin verkkopalvelimiinsa. 
+
+WIFI
+
+Wi-Fi on langaton verkkoyhteys, jonka avulla laitteet voivat kommunikoida ilman internet-johdotuksia. Se on teknisesti alan termi, joka edustaa 802.11 IEEE -verkostandardiin perustuvaa lan-gattoman lähiverkon (LAN) protokollaa.
+
+Kiosk-tila
+
+Älylaitteen esittelytila missä sallitaan ainoastaan halutut
+toiminnot ja sovellukset.
+ 
+Sisällys
+JOHDANTO	1
+CHAMPION DOOR OY	2
+1	HYÖDYT CHAMPION DOOR OY:LLE	4
+2	HYÖDYT KÄYTTÄJÄLLE	5
+3	KOMPONENTTIEN VALINTA	6
+3.1	ÄLYLAITE	6
+3.2	WIFI-LAITE	6
+3.3	KIINNITYS	6
+3.4	LÄPIVIENNIT	6
+4	TOTEUTUS JA TESTAUS	8
+5	OVIEN TOIMINTA	9
+6	POHDINTA JA JOHTOPÄÄTÖKSET	10
+
+
+ 
+JOHDANTO
+Opinnäytetyön aihe; Ovenohjauskaapin paneeli-pc korvaus älylaitteella, sai alkunsa minun työhar-joittelusta Champion Door OY:ssä. Harjoittelussa tutustuin ohjauskeskusten kokoonpanoon ja suun-nitteluun. Oli selvää että haluan tehdä myös opinnäytetyöni tähän kyseiseen firmaan. En halunnut tehdä mitään turhaa tutkimusta jostain mistä ei oikeastaan olisi firmalle todellista hyötyä.
+Tähän aiheeseen päädyin Mikko Sikalan ehdotuksesta. Mikko Sikala on toiminut kyseisessä firmassa vuosia sähkösuunnittelijana ja on talon pitkäaikainen työntekijä. Mikon sanoin: ” Tämä voisi olla hyvä opinnäytetyön aihe, koska hänen ja hänen kollegansa Riki Korkiakosken oli tarkoitus paneutua tähän asiaan myöhemmin, kunhan kiireiseltä työtahdiltaan kerkeäisivät”.
+
+ Champion Door OY:ssä suunnittelijoiden työ on jatkuvaa muutoksien kanssa elämistä. Edellä mai-nittuja muuttujia on erityisesti saanut aikaan komponenttipula. Lisäksi Champion Door OY on erit-täin joustava räätälöimään tuotteensa asiakkaan toiveiden mukaisesti. Tämä työllistää suunnittelua paljon.
+
+ Minun tehtävänä tässä työssä oli selvittää parhaat ja edullisimmat tavat toteuttaa muutostyö. Valitut komponentit täytyi lisäksi saada sulautettua toimivaksi osaksi valmista projektia. Projektit ovat glo-baaleja hankkeita, minkä vuoksi täytyi ottaa huomioon helppokäyttöisyys ja yksinkertaisuus.
+
+ Valmiin toteutuksen oli tarkoitus tuoda hyötyjä niin taloudellisesti, kuin käytännöllisestikin Cham-pion Door OY:lle. Asiakas hyötyy muutoksesta käyttömukavuuden ja tiedonsaannin parantumisesta. Työ alueen rajaaminen oli vaikeaa kun kehitys ideoita syntyi yksi toisen perään. Aihe täytyi rajata pienempään, minkä pääosat oli komponenttien valinta, komponenttien integrointi ohjauskeskukseen, toimivan kokonaisuuden saattaminen tuotantoon ja turvallisuuden hallinta.
+
+
+
+
+
+
+
+
+
+
+
+tämän jälkeen näyttöjen yhteys logiikkaan
+
+
+
+sitten android laitteet
+
+ CHAMPION DOOR OY
+
+Champion Door on suomalainen teollisuusovien valmistaja. Päätuotteita ovat kangasnosto-ovet va-rastoihin, nosturiaukkoihin, satamiin ja telakoille sekä teollisuus- ja lentokonehalleihin. Champion Door valmistaa myös liikuntatilojen jakoseiniä.
+
+Champion Door -kangasnosto-ovien rakenteessa on monia etuja verrattuna perinteisiin oviratkaisui-hin. Kevyen kangasrakenteisen massan ansiosta nosto-ovi ei edellytä ylimitoitettuja runkorakenteita eikä se vaadi avautuakseen suuria rakennelmia. Ovituotteet ovat testattuja, ja niiden huollon tarve on vähäinen. Champion Door -teollisuusovet soveltuvat hyvin myös ankariin käyttöolosuhteisiin, koska niissä on markkinoiden paras lämmöneristys.
+
+Champion Door toimittaa teollisuusovia, laivatelakoiden, lentokonehangaarien ja siltanosturiaukko-jen ovia ympärimaailmaa. Alla olevalla kartalla näkyy kuinka vienti ulottuu ympärimaailman.
+
+
+ 
+Kuva 1 Havainnointikuva ovien viennistä
+ 
+
+
+
+   			2018/03	2019/03	2020/03	2021/03
+Liikevaihto (tuhatta euroa)		10576	10919	13163	7723
+Liikevaihdon muutos %		30,4%	3,2%	20,6%	-41,3%
+Liiketulos (tuhatta euroa)		470	-206	51	285
+Käyttökate %			9,8%	3,9%	4,9%	10,5%
+Liikevoitto %			4,4%	-1,9%	0,4%	3,5%
+Tilikauden tulos (tuhatta euroa)	264	-496	-233	29
+Henkilöstö				69		55
+
+Organisaatio rakenne on funktionaalinen eli toimintakohtainen.
+Tähän rakenteeseen kuuluu:
+Myynnin (2hlö), huollon ja asennuksen (2hlö), viennin (1hlö), Ranskan (2hlö) ja Dubain (1hlö) toi-mistojen, ja hallinnon (9hlö) yksiköt. (www.championdoor.com).
+
+
+
+
+ 
+1	HYÖDYT CHAMPION DOOR OY:LLE
+Champion Door -kangasnosto-ovet ja -seinät voidaan asentaa monella eri tavalla käyttökohteesta riippuen, joko suoraan aukkoon tai aukon ulko- tai sisäpuolelle. Champion Door -kangasnosto-ovet toimitetaan asennusvalmiina ja asennus kestää kohteesta riippuen 1-5 työpäivää. Jokaisen oven mu-kana tulee ovikansio jossa on mukana seuraavat asiakirjat: käyttöohjeet, tekniset tiedot ja piirustuk-set, huoltopäiväkirja, EY-vaatimustenmukaisuusvakuutus, takuutodistus, valmistajan vakuutus hissi-tarkastusta varten ( tarvittaessa).  (www.championdoor.fi).
+Champion Door oviin kuuluu oven ohjauskeskus, jonka kautta esimerkiksi ovea nostaville mootto-reille syötetään sähkövirtaa ja ajetaan ovea ylös tai alas. Tämän sähkövirran täytyy olla tarkasti oh-jattua ja valvottua. Moottoreiden tulee saada oikea määrä jännitettä ja vaihejärjestyksen oltava oikea. Vaihdejärjestys vaikuttaa moottorinpyörimissuuntaan. Lisäksi moottorit tarvitsevat erilaisia säh-kösyöttöjä esimerkiksi vapauttaakseen jarrut, jotka estävät moottoreita pyörimästä oven painosta. Näiden sähkön erilaisten syöttöjen täytyy olla ajoitettu ja säädetty tarkalleen oikein. Ovien täytyy toimia turvallisesti ja sujuvasti. Ohjauskeskus siis sisältää teknologian millä nämä asiat saadaan kun-toon. Osassa ovia käytetään esimerkiksi Wago yhtiön tuottamia paneeli-PC:itä, jotka ovat yhdistetty-nä logiikkaan. Logiikka antaa esimerkiksi vikatilanteessa vikakoodin, mitä seuraamalla voi paikantaa ongelman. Vikakoodi tai sen syy näkyy tällöin ohjauskaapin oveen integroidussa paneeli-PC:ssä. Kun paneeli-PC:n korvataan älylaitteella saadaan hyötyjä asentajille, huoltohenkilöille ja ovenkäyttäjille. Älylaite on WiFi yhteydessä logiikkaan ja saa samat tiedot kuin paneeli-PC. Paneeli-PC sai tietonsa logiikalta ethernet-kaapelilla. Kun älylaite saa yhteyden langattomasti voi asentaja käyttää ovea etäältä nostokorista. Nostokorista oven ajaminen nopeuttaisi asentajien ja huoltohenkilöiden työtä. Älylaitteella nopeutuisi ja helpottuisi siis mahdollisten vikojen etsintä ja korjaus. Champion Door OY hyötyisi tästä ratkaisusta myös suoraan rahallisesti komponenttien hankinta hintojen erojen vuoksi. Teollisuuskäyttöön tarkoitetut Paneeli-PC:t ovat kalliita. Vaihtamalla nämä halvempiin tab-letteihin tulisi suoraa säästöä. Lisäksi toimituksessa aiheutuvien vaurioiden riski pienentyisi kun tab-letin voi asettaa kaapin sisälle suojaan kuljetuksen ajaksi. Paneeli-PC on kiinni ohjauskeskuksessa ja alttiina kuljetuksessa sattuville vaurioille. Myös ohjauskeskuksen oven jäykkyys ei kärsi, kun table-tille ei tarvitse työstää suurta läpivientireikää. Lisäksi ohjauskeskuksen kokoonpano helpottuisi sa-masta syystä kun oveen ei ole tarvetta työstää tarkoin tehtävää reikää paneeli-PC:lle. 
+2	HYÖDYT KÄYTTÄJÄLLE
+
+Asiakas hyötyisi älylaite ratkaisusta sujuvampana käyttökokemuksena. Käyttökokemusta parantaisi tabletin helppokäyttöisyys verrattuna paneeli-PC:seen. Lisäarvoa asiakkaalle toisi myös älylaitteen helppokäyttöisyys ja suurempi näyttö. Älylaitteeseen saa esille oven tilatiedot, mitkä kertovat esi-merkiksi missä korkeudessa ovi on metrimääräisesti. Lisäksi saatavilla voisi olla tuulennopeus, läm-pötila ja ilmankosteus. Turvallisuuden parantamiseksi älylaitteeseen voi asettaa salasanan, estämään oven luvatonta käyttöä.  Voitaisiin myös määritellä sallitut käyttöajat, joiden aikana ovea voi käyttää ilman salasanaa. Älylaitteessa olisi myös aina saatavilla oven dokumentaatiot. Asiakas voisi lukea myös vikalokin suoraan älylaitteesta.
+3	KOMPONENTIT
+3.1	ÄLYLAITE
+Älylaitteeksi valikoitui Lenovon Tab M10.  Lenovo Tab M10 on suhteellisen edullinen älylaite, joka tarjoaa perustoiminnot ja -ominaisuudet hyvään hintaan. Se sisältää 10,3 tuuman HD-näytön, joka tarjoaa laadukkaan kuvanlaadun ja kattavan näkymän. Laitteessa on myös 2 GB RAM-muistia, joten se pystyy suorittamaan perustehtäviä sujuvasti. Lisäksi Lenovo Tab M10 sisältää 5 megapikselin etukameran ja 2 megapikselin takakameran. Laitteessa on USB-C-portti, joten voit liittää siihen ul-koisia laitteita ja siirtää tiedostoja nopeasti. Laitteessa on myös perinteinen 3,5 mm kuulokeliitäntä. Yhteenvetona voidaan todeta, että Lenovo Tab M10 on edullinen ja perustoimintoja tarjoava älylaite, joka sopii hyvin tähän työhön. Laitteen mukana tuli 1 metrin pituinen USB-C kaapeli ja laturi USB ulostulolla. Laite toimii android-käyttöjärjestelmällä.  
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+3.2	REITITIN
+ZyXEL NBG6515 reititin. Vertaile laitetta TELTONIKAAN
+
+
+ 
+Kuva 2 ZyXEL NBG515 reititin.
+ 
+Kuva 3 ZyXEL reititin.
+3.3	KIINNITYS
+Kiinnitys tapahtuu magneettien avulla. Magneetit liimataan älylaitteen takakanteen. Ohjauskeskusten ollessa metallia pysyy älylaite näiden magneettien avulla ovessa siinä kohtaa mihin käyttäjä sen ha-luaa asettaa. Lisäksi älylaite täytyi saada kiinnitettyä niin, että asiakas ei voi viedä sitä kauas ohjaus-keskuksesta. Tämä ratkaistiin vaijerilukituksella.
+
+
+
+
+
+
+
+
+3.4	LÄPIVIENNIT
+
+
+
+
+IP-luokitukset (International Protection) ovat kansainvälisiä kotelointiluokituksia, joita käytetään arvioimaan sähkölaitteiden suojaustasoa vieraiden esineiden, pölyn ja veden sisäänpääsyltä. Luoki-tuksessa käytetään kahta numeroa, joista ensimmäinen kuvaa suojaustasoa vieraiden esineiden ja pölyn osalta ja toinen suojaustasoa vedeltä. Numeroiden jälkeen luokituksessa voi olla yksi tai kaksi lisäkirjainta, joilla ei tavallisen sähkönkäyttäjän kannalta ole yleensä merkitystä.
+Ensimmäinen numero ilmaisee vieraiden esineiden ja pölyn suojaustason seuraavasti:
+0: Suojaamaton
+1: Kun esineen halkaisija on yli 50 mm
+2: Kun esineen halkaisija on yli 12,5 mm
+3: Kun esineen halkaisija on yli 2,5 mm
+4: Kun esineen halkaisija on yli 1,0 mm
+5: Pölysuojattu
+6: Pölytiivis
+Toinen numero ilmaisee veden suojaustason seuraavasti:
+0: Suojaamaton
+1: Pystysuoraan tippuvalta vedeltä
+2: Tippuvalta vedeltä (+/- 15 astetta)
+3: Satavalta vedeltä (+/- 60 astetta)
+4: Roiskuvalta vedeltä
+5: Suihkuvedeltä
+6: Puuskittaiselta vedeltä
+7: Immersiolta vedeltä (lyhyt aika)
+8: Syväimmersiolta vedeltä (pitkä aika)
+Yleisesti voidaan sanoa, että mitä suuremmat numerot ovat, sitä paremmin laite on suojattu vierailta esineiltä ja vedeltä. Esimerkiksi IP66-luokituksen saanut laite on suojattu vieraiden esineiden ja pö-lyn sisäänpääsyltä sekä veden roiskuvalta vaikutuksilta.
+IP-luokitukset määritellään IEC-standardeilla (International Electrotechnical Commission), jotka ovat kansainvälisiä sähköteknisiä standardeja. Standardit määrittelevät IP-luokitukset ja niiden tes-tausmenetelmät. Standardit ovat saatavilla IEC:n verkkosivuilta (https://www.iec.ch/ip-ratings).
+Läpiviennin on oltava vähintään IP66, koska ohjauskeskukset ovat yleisesti tätä samaa luokitusta vastaavia. Tämän luokitus varmistetaan viemällä älylaitteen latausjohto, ohjauskeskuksen pohjale-vyssä olevasta läpiviennistä. Näitä läpivientejä on ohjauskeskuksissa yleensä useampia. Toinen vaih-toehto olisi tuoda kaapeli ovesta läpi käyttäen tähän soveltuvaa läpivientiä, mikä täyttäisi IP luoki-tuksen vaatimuksen. 
+
+4	PANEELI-PC
+Paneeli-pc on -------------------------------------------------------------------- Champion Doorin käyttämä laite on Wago yhtiön tuottama paneeli-PC. Siinä on 5,7 tuuman resistiiinen kosketusnäyttö, joka pys-tyy näyttämään 262 000 eri väriä grafiikkaresoluutiolla 640 x 480 pikseliä. Näytön kontrastisuhde on 300:1 ja sen katsontakulma on 80 astetta joka suunnassa. Näytön kirkkaus on 630 cd/m2 ja puolikirk-kaan valon kesto on 30 000 tuntia. Laitteessa on visualisointityökalu. Laitteessa on muistikorttipaik-ka, johon voi liittää muistikortteja enintään 2 gigatavun kokoon asti. Lisäksi laitteessa on Ethernet-liitäntä ja kaksi USB-liitäntää, jotka mahdollistavat tietojen siirtämisen ja ulkoisten laitteiden liittä-misen. Laitteen etupaneeli on valmistettu eloksoidusta alumiinista ja sen suojausluokka on IP65. Sen asennus tapahtuu puristuselementeillä. Toimintalämpötila on 0–55 astetta ja sen säilytyslämpötila -20–80 astetta. Paneeli-PC:een leveys on 172 mm, korkeus 163 mm ja syvyys 58 mm ja paino 1067 grammaa. (https://www.wago.com/fi/kosketusnaeytoet/web-paneeli/p/762-3001#details)
+Alla kuvia kyseisestä laitteesta asennettuna ohjauskeskukseen.
+   
+ 
+
+
+
+
+
+
+
+
+
+
+5	KÄYTÖN RAJOITTAMINEN
+Älylaitteen ylimääräistä käyttöä rajoitetaan Fully Kiosk Browser sovelluksen avulla. Vertailin muu-tamia suosittuja Kiosk sovelluksia ja päädyin valitsemaan Fully Kiosk Browserin, koska se oli yksin-kertaisesti selkein käyttää. Lisenssi maksoi 10,90e mikä on voimassa aina. Tämä lisenssi on yhdelle laitteelle kerrallaan. Lisenssin voi myös siirtää halutessaan toiseen laitteeseen. Määritin Kiosk omi-naisuuden toimimaan niin, että älylaite on lukittuna kokonäytön näkymään osoitteessa: https//1.92.168.1.17/webvisu/webvisu.htm Tämä IP-osoite on wagon logiikan webvisualisointi osoite, mihin on itse muokattavissa mitä siinä haluaa näyttää. Esimerkiksi voidaan laittaa ovi ylös ja ovi alas painikkeet, joista ovi luonnollisesti toimii. Asetukset käytön rajoittamiseen on asetettu niin, että jos yrittää poistua tältä verkkosivulta tarvitaan siihen salasana. Lisäksi jos virtajohto irtoaa älylait-teesta pysyy näyttö pimeänä eikä tällöin älylaitetta voi käyttää kaukosäätimenä. Näyttö on määrätty olemaan päällä koko ajan. Sovelluksella on mahdollista helposti muokata eri asetuksia asiakkaan toiveiden mukaan. Sovelluksessa on myös Fully Remote Admin tila, jonka kautta voi muokata kaik-kia asetuksia mitä itse laitteeltakin ja tämän etähallinta tilan kautta on myös luettavissa käyttöhisto-riaa laitteesta, esimerkiksi kosketuksien määrä. Myös etähallinnan kautta saadaan Fully Log, josta näkee sovellukseen mahdollisesti tehdyt muutokset, esimerkiksi yritykset avata PIN koodilla lukitus-ta. 
+ 
+ 
+ 
+ 
+ 
+
+6	TOTEUTUS JA TESTAUS
+
+ 
+
+
+
+Kiinnitys ohjauskeskukseen toteutuu kuvassa näkyvällä tavalla. Pelkästään magneettien avulla tabletti ei pysynyt ovessa toivotulla tavalla maalipinnan alhaisen kitkan vuoksi. Tämän ongelma ratkaistiin metallilevyn jonka alareunassa on taitos liimaamisella haluttun kohtaan   
+ 
+7	OVIEN TOIMINTA
+Ovien toiminta perustuu ensinnäkin oven rakenteeseen, tärkeimpinä määräävinä tekijöinä, ovilehtien määrä ja koko. Nämä tiedot luovat vaatimukset sähkötekniikalle jolla täytyy saada ovien käytöstä varmaa, turvallista ja sujuvaa. Oven muuttuva koko muuttaa ovea ajavien moottoreiden kokoa ja määrää. Ovilehtien määrä taas tuo enemmän haasteita ohjausyksikölle, jotta ovet toimivat saumat-tomasti yhdessä.  
+
+ Logiikan toiminta perustuu ohjelman määräämien loogisten toimintojen toteuttamiseen. Digitaalista
+tieto käsitellessä logiikka reagoi tulojen muutokseen ja suorittaa ohjelman mukaisen toiminnon. Lo-giikan toimintaperiaate voi olla joko pyyhkäisevä logiikka tai tosiaikainen logiikka. Pyyhkäisevä logiikka
+suorittaa ohjelmaa tietyin väliajoin. Pyyhkäisevän logiikan toimintatavan vuoksi tulojen ja lähtöjen tilat eivät muutu ohjelman suorituksen aikana. (Keinänen & Sumujärvi 2019.)
+Tosiaikainen logiikka lukee tulojen tilat suoraan tuloyksiköstä ja asettaa lähdöt suoraan yksiköihin ohjelman mukaisesti sekä reagoi tilojen muutokseen reaaliajassa. Nosto-oven ohjaukset ovat toimin-nallisesti kriittisiä, joten niissä käytetään tosiaikaista logiikkaa. Nosto-oven ohjauksiin ja monito-rointiin on myös mahdollista yhdistää PLC-näyttö. Tätä voidaan myös
+kutsua nimellä paneeli-PC. Näyttö liitetään osaksi automaation laiteverkkoa, johon on liitetty muut-kin
+järjestelmän laitteet. (Keinänen & Sumujärvi 2019.)
+8	POHDINTA JA JOHTOPÄÄTÖKSET
+ 
+
